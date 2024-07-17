@@ -1,0 +1,41 @@
+- Void element: All the elements in HTML do not require to have start tag and end tag.These elements are also called as unpaired tag.
+
+# Block-level and Inline HTML elements
+
+1. Block-level element
+Block-level element:
+These are the elements, which structure main part of web page, by dividing a page into coherent blocks.
+A block-level element always start with new line and takes the full width of web page, from left to right.
+These elements can contain block-level as well as inline elements.
+Following are the block-level elements in HTML.
+<address>, <article>, <aside>, <blockquote>, <canvas>, <dd>, <div>, <dl>, <dt>, <fieldset>, <figcaption>, <figure>, <footer>, <form>, <h1>-<h6>, <header>, <hr>, <li>, <main>, <nav>, <noscript>, <ol>, <output>, <p>, <pre>, <section>, <table>, <tfoot>, <ul> and <video>.
+
+Example:
+<!DOCTYPE html>  
+<html>  
+             <head>  
+    </head>  
+<body>  
+    <div style="background-color: lightblue">This is first div</div>  
+    <div style="background-color: lightgreen">This is second div</div>  
+    <p style="background-color: pink">This is a block level element</p>  
+</body>  
+</html>  
+
+2. Inline elements:
+Inline elements are those elements, which differentiate the part of a given text and provide it a particular function.
+These elements does not start with new line and take width as per requirement.
+The Inline elements are mostly used with other elements.
+<a>, <abbr>, <acronym>, <b>, <bdo>, <big>, <br>, <button>, <cite>, <code>, <dfn>, <em>, <i>, <img>, <input>, <kbd>, <label>, <map>, <object>, <q>, <samp>, <script>, <select>, <small>, <span>, <strong>, <sub>, <sup>, <textarea>, <time>, <tt>, <var>.
+
+Example:
+<!DOCTYPE html>  
+<html>  
+    <head>  
+    </head>  
+<body>  
+    <a href="https:">Click on link</a>  
+    <span style="background-color: lightblue">this is inline element</span>  
+    <p>This will take width of text only</p>  
+ </body>  
+</html>   
